@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "GasRank",
-    "slug": "GasRank",
+    "slug": "gasrank",
+    "scheme": "gasrank",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "updates": {
+      "enabled": false
+    },
+    "plugins": ["expo-router"]
   }
 }
